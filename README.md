@@ -1,6 +1,8 @@
 # FCC Top News - AreaVoices
 AreaVoices.com customized child of the Top News Theme.
 
+![AreaVoices](https://raw.githubusercontent.com/openfcci/fcc-topnews-areavoices/master/screenshot.png)
+
 #### Core Modified Files
 - widgets/widget-ad.php
 - js/jquery.infinitescroll.min.js
