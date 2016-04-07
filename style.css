@@ -1,0 +1,64 @@
+/*
+Theme Name:     FCC Top News - AreaVoices
+Description:    AreaVoices.com child theme of the Top News Theme.
+Author:         FCC Interactive
+Template:       topnews
+Version: 1.10.1
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+@media screen and (max-width: 479px) {
+  .featured-multi-sub, .story-contain {
+    height: 155px !important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#foot-top {
+  display: none;
+}
+#foot-copy {
+  line-height: 18px;
+}
+#foot-copy A:hover {
+  color: #00aeef;
+}
+
+/*--------------------------------------------------------------
+# Darken Body Typeface
+--------------------------------------------------------------*/
+
+#content-area {
+  color: #333 !important;
+}
+
+/*--------------------------------------------------------------
+# Activity Feed
+--------------------------------------------------------------*/
+
+.sidebar-list-img {
+  margin-right: 15px !important;
+}
+#content-area ul li {
+  margin-top: 5px !important;
+  padding-top: 10px !important;
+}
+.sidebar-list-img {
+  max-height: 35px;
+}
+.sidebar-list-tabs.left.relative > LI {
+  line-height: 0 !important;
+}
+#TB_ImageOff span {
+  display: none !important;
+}
+.tb-close-icon {
+  display: none !important;
+}
