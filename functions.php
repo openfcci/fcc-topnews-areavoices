@@ -14,6 +14,13 @@ function theme_enqueue_styles() {
     );
 }
 
+/**
+ * Add Javascript for searchbar ad covering fix
+ */
+wp_register_script('topnews-searchfix', get_stylesheet_directory_uri() . '/js/searchfix.js', array('jquery'), '', true);
+wp_enqueue_script('topnews-searchfix');
+
+
 /*
 function my_unregister_default_wp_widgets() {
   remove_action( 'widgets_init', 'mvp_ad_load_widgets' );
