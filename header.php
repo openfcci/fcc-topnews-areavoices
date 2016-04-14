@@ -459,6 +459,7 @@
 					<?php endif; ?>
 				<?php } ?>
 			<?php } ?>
+			<div id="search-push-spacer" style="height: 110px; display: none;"></div>
 			<?php if(get_option('mvp_header_leader')) { ?>
 				<div class="content-out">
 					<div class="content-in">
